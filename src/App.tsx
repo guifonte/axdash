@@ -5,9 +5,9 @@ const buttonStyle = "rounded-2xl border-black border-2 h-12 w-12 text-xl hover:b
 const labelStyle = "text-4xl mx-4 border-black border-2 rounded p-2 font-bold"
 
 const App: React.FC = () => {
-  const [rounds, setRounds] = useState(0)
-  const [energy, setEnergy] = useState(0)
-  const [cards, setCards] = useState(0)
+  const [rounds, setRounds] = useState(1)
+  const [energy, setEnergy] = useState(3)
+  const [cards, setCards] = useState(6)
 
   const incrementRound = () => {
     setRounds((prevRounds) => ++prevRounds)
@@ -16,9 +16,9 @@ const App: React.FC = () => {
   }
 
   const clearAll = () => {
-    setRounds(0)
-    setEnergy(0)
-    setCards(0)
+    setRounds(1)
+    setEnergy(3)
+    setCards(6)
   }
   return (
     <div className="flex flex-col items-center">
