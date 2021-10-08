@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/axdash/static/css/main.d1b3a595.chunk.css",
-    "main.js": "/axdash/static/js/main.84ee769a.chunk.js",
-    "main.js.map": "/axdash/static/js/main.84ee769a.chunk.js.map",
+    "main.css": "/axdash/static/css/main.6bc83973.chunk.css",
+    "main.js": "/axdash/static/js/main.6136bbda.chunk.js",
+    "main.js.map": "/axdash/static/js/main.6136bbda.chunk.js.map",
     "runtime-main.js": "/axdash/static/js/runtime-main.6d0aafe6.js",
     "runtime-main.js.map": "/axdash/static/js/runtime-main.6d0aafe6.js.map",
     "static/js/2.16afcc5f.chunk.js": "/axdash/static/js/2.16afcc5f.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.541ed75c.chunk.js": "/axdash/static/js/3.541ed75c.chunk.js",
     "static/js/3.541ed75c.chunk.js.map": "/axdash/static/js/3.541ed75c.chunk.js.map",
     "index.html": "/axdash/index.html",
-    "static/css/main.d1b3a595.chunk.css.map": "/axdash/static/css/main.d1b3a595.chunk.css.map",
+    "static/css/main.6bc83973.chunk.css.map": "/axdash/static/css/main.6bc83973.chunk.css.map",
     "static/js/2.16afcc5f.chunk.js.LICENSE.txt": "/axdash/static/js/2.16afcc5f.chunk.js.LICENSE.txt",
     "static/media/ax-cycle.81f8d758.jpg": "/axdash/static/media/ax-cycle.81f8d758.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6d0aafe6.js",
     "static/js/2.16afcc5f.chunk.js",
-    "static/css/main.d1b3a595.chunk.css",
-    "static/js/main.84ee769a.chunk.js"
+    "static/css/main.6bc83973.chunk.css",
+    "static/js/main.6136bbda.chunk.js"
   ]
 }
