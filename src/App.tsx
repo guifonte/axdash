@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axCycle from "./ax-cycle.jpg"
 
-const buttonStyle = "rounded-2xl border-black border-2 h-12 w-12 text-xl hover:border-blue-400 hover:bg-blue-50 hover:text-blue-700"
+const buttonStyle = "rounded-2xl border-black border-2 h-12 w-12 text-xl hover:border-blue-400 hover:bg-blue-50 hover:text-blue-700 z-10"
 const labelStyle = "text-4xl mx-4 border-black border-2 rounded p-2 font-bold"
 
 const App: React.FC = () => {
@@ -15,6 +15,10 @@ const App: React.FC = () => {
     setCards((prevCards) => prevCards + 3)
   }
 
+  const decrementEnergyAndCards = () => {
+    setEnergy((prevEnergy) => --prevEnergy)
+    setCards((prevCards) => --prevCards)
+  }
   const clearAll = () => {
     setRounds(1)
     setEnergy(3)
@@ -58,6 +62,10 @@ const App: React.FC = () => {
         </div>
         <div className="flex justify-center items-center mt-8 row-start-7 col-start-2">
           <button className="rounded-3xl border-red-500 border-2 py-2 px-5 text-xl font-semibold text-red-500 hover:text-red-600 hover:border-red-600 hover:bg-red-100" onClick={clearAll}>CLEAR</button>
+        </div>
+        <div className="flex justify-end items-center row-start-4 row-span-3 col-start-1">
+          <button className="h-full w-16 border-black border-2 rounded-2xl -mr-2 z-0 hover:border-blue-400 hover:bg-blue-50 hover:text-blue-700 flex flex-col justify-between" onClick={decrementEnergyAndCards}>
+          </button>
         </div>
       </div>
       <div className="flex justify-center w-full">
