@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d1b3a595.chunk.css",
+    "main.js": "/static/js/main.e25d76ab.chunk.js",
+    "main.js.map": "/static/js/main.e25d76ab.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.857ad487.js",
+    "runtime-main.js.map": "/static/js/runtime-main.857ad487.js.map",
+    "static/js/2.16afcc5f.chunk.js": "/static/js/2.16afcc5f.chunk.js",
+    "static/js/2.16afcc5f.chunk.js.map": "/static/js/2.16afcc5f.chunk.js.map",
+    "static/js/3.541ed75c.chunk.js": "/static/js/3.541ed75c.chunk.js",
+    "static/js/3.541ed75c.chunk.js.map": "/static/js/3.541ed75c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d1b3a595.chunk.css.map": "/static/css/main.d1b3a595.chunk.css.map",
+    "static/js/2.16afcc5f.chunk.js.LICENSE.txt": "/static/js/2.16afcc5f.chunk.js.LICENSE.txt",
+    "static/media/ax-cycle.81f8d758.jpg": "/static/media/ax-cycle.81f8d758.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.857ad487.js",
+    "static/js/2.16afcc5f.chunk.js",
+    "static/css/main.d1b3a595.chunk.css",
+    "static/js/main.e25d76ab.chunk.js"
+  ]
+}
